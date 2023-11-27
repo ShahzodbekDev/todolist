@@ -32,7 +32,7 @@ class SignUp : AppCompatActivity() {
                 sharedPreferences.edit().putString("surname",surname).apply()
                 sharedPreferences.edit().putString("email",email).apply()
 
-                val intent = Intent(this,UserInfoActivity::class.java)
+                val intent = Intent(this,HeaderPageActivity::class.java)
                 startActivity(intent)
                 finish()
             }

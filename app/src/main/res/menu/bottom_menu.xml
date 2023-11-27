@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/baseline_home_24"
+        android:id="@+id/homeFragment"
+        android:title="Home"/>
+    <item android:icon="@drawable/baseline_calendar_month_24"
+        android:id="@+id/calendarFragment"
+        android:title="Calendar"/>
+    <item android:icon="@drawable/baseline_supervised_user_circle_24"
+        android:id="@+id/userInfoFragment"
+        android:title="Profile"/>
+</menu>

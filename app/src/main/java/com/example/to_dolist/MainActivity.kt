@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             val name = sharedPref.getString("name", "").toString()
 
             val intent = if (name.isNotBlank()) {
-                Intent(this, UserInfoActivity::class.java)
+                Intent(this, HeaderPageActivity::class.java)
             } else {
                 Intent(this, SignUp::class.java)
             }
